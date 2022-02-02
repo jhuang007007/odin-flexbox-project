@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.add-pad {
+    padding: 0 140px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding-left: 0px;
+    background-color: red;
+    padding: 10px 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+li a {
+    padding-left: 15px;
+}
+
+.push-right {
+    margin-left: auto;
+}
+
