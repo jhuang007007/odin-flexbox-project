@@ -1,21 +1,17 @@
 * {
     box-sizing: border-box;
+    font-family: roboto, sans-serif;
 }
 
 body {
     margin: 0;
 }
 
-.add-pad {
-    padding: 0 140px;
-}
-
 nav ul {
     display: flex;
     margin: 0;
     padding-left: 0px;
-    background-color: red;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 nav li {
@@ -24,9 +20,65 @@ nav li {
 
 li a {
     padding-left: 15px;
+    text-decoration: none;
 }
 
-.push-right {
+.add-pad {
+    padding: 0 200px;
+}
+
+.img-div {
+    display: flex;
+    margin: 105px 0;
+    height: 400px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.img-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 112, 112);
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.button-div {
+    width: 50%;
+    padding-right: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 0px;
+    padding: 5px 30px;
+}
+
+#push-right {
     margin-left: auto;
 }
 
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
